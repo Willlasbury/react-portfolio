@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
-
   const pages = {
-    'Home': '/',
-    'Project': '/projects',
-    'About Me': '/aboutme' 
-    }
-    
+    Home: "/",
+    Project: "/projects",
+    "About Me": "/aboutme",
+  };
+
   return (
     <nav className="bg-gradient-to-r from-cyan-500 from-20% via-purple-500 via-60% to-cyan-500 rounded-b-md">
       <ul className="flex flex-row">

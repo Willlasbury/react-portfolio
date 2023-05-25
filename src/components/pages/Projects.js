@@ -11,10 +11,10 @@ export default function Home() {
           return (
             <article
               key={index}
-              className="flex w-1/4 h-2/4 m-3 border-4 border-gray-700 rounded-lg shadow-lg bg-cyan-500 hover:font-bold hover:bg-cyan-400 hover:border-8 text-xl font-medium hover:text-2xl"
+              className="flex justify-center w-1/4 h-2/4 m-3 border-4 border-gray-700 rounded-lg shadow-lg bg-cyan-500 hover:font-bold hover:bg-cyan-400 hover:border-8 text-xl font-medium hover:text-2xl"
             >
               <a
-                className="flex grow justify-center items-center "
+                className="flex grow place-content-center items-center"
                 href={projects[key]}
               >
                 {key}
