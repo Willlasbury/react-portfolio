@@ -1,4 +1,4 @@
-import projects from "../projects";
+import projects from "../../utils/projects";
 
 export default function Home() {
   return (

@@ -1,4 +1,4 @@
-import photo from "../../images/photo.jpg";
+import photo from "../../utils/images/photo.jpg";
 
 export default function Home() {
   return (
