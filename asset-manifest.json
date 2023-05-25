@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Willlasbury/react-portfolio/static/css/main.c9ca79f7.css",
+    "main.js": "/Willlasbury/react-portfolio/static/js/main.90c73d17.js",
+    "static/media/photo.jpg": "/Willlasbury/react-portfolio/static/media/photo.4760632860d103ffbdeb.jpg",
+    "index.html": "/Willlasbury/react-portfolio/index.html",
+    "main.c9ca79f7.css.map": "/Willlasbury/react-portfolio/static/css/main.c9ca79f7.css.map",
+    "main.90c73d17.js.map": "/Willlasbury/react-portfolio/static/js/main.90c73d17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9ca79f7.css",
+    "static/js/main.90c73d17.js"
+  ]
+}
