@@ -9,7 +9,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-cyan-500 from-20% via-purple-500 via-60% to-cyan-500 rounded-md border-2 border-cyan-800">
+    <nav className="flex place-content-between bg-gradient-to-r from-cyan-500 from-20% via-purple-500 via-60% to-cyan-500 rounded-md border-2 border-cyan-800">
       <ul className="flex flex-row">
         {Object.keys(pages).map((key, index) => {
           return (
@@ -30,6 +30,7 @@ export default function NavBar() {
           );
         })}
       </ul>
+      <p className="flex place-self-center mx-3 text-2xl font-semibold text-green-500 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">William Asbury</p>
     </nav>
   );
 }
