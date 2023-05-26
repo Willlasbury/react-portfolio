@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function NavBar() {
   const pages = {
@@ -14,12 +14,18 @@ export default function NavBar() {
         {Object.keys(pages).map((key, index) => {
           return (
             <li key={index} className="ml-10 my-2">
-              <Link
+              <NavLink
                 to={pages[key]}
-                className="font-bold text-green-200 text-2xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] hover:underline hover:shadow-lg hover:text-blue-900"
+                
+                className={({ isActive }) => (
+                  isActive ? 
+                  "p-1 font-bold text-green-500 text-2xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-md hover:underline hover:text-blue-900": 
+                  'font-bold text-green-200 text-2xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]  hover:underline hover:text-blue-700'
+                )
+                }
               >
                 {key}
-              </Link>
+              </NavLink>
             </li>
           );
         })}
