@@ -5,6 +5,7 @@ export default function NavBar() {
     Home: "/",
     Project: "/projects",
     "About Me": "/aboutme",
+    Contact: "/contact",
   };
 
   return (
@@ -12,7 +13,7 @@ export default function NavBar() {
       <ul className="flex flex-row">
         {Object.keys(pages).map((key, index) => {
           return (
-            <li key={index} className="ml-4 my-2">
+            <li key={index} className="ml-10 my-2">
               <Link
                 to={pages[key]}
                 className="font-bold text-green-200 text-2xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] hover:underline hover:shadow-lg hover:text-blue-900"

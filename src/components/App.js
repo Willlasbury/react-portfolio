@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact"
 import NotFound from "./pages/NotFound";
 import Footer from "./Footer";
 
@@ -17,15 +18,16 @@ function App() {
 
         </header>
 
-      <main className="h-screen">
-          <article className="p-3 h-5/6">
+      <main className="h-full">
+          {/* <article className="p-3 h-5/6"> */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/aboutme" element={<AboutMe />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="/*" element={<NotFound />} />
             </Routes>
-          </article>
+          {/* </article> */}
         {/* <Footer /> */}
       </main>
           <Footer />
