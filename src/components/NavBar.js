@@ -9,7 +9,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-cyan-500 from-20% via-purple-500 via-60% to-cyan-500 rounded-b-md">
+    <nav className="bg-gradient-to-r from-cyan-500 from-20% via-purple-500 via-60% to-cyan-500 rounded-md border-2 border-cyan-800">
       <ul className="flex flex-row">
         {Object.keys(pages).map((key, index) => {
           return (
