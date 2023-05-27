@@ -1,8 +1,8 @@
-import projects from "../../utils/projects";
+import projects from "../utils/projects";
 
 export default function Home() {
   return (
-    <section className="h-full">
+    <main className="h-full">
       <h1 className="mb-5 flex justify-center text-3xl font-bold font-sans text-gray-900 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
         Projects
       </h1>
@@ -23,6 +23,6 @@ export default function Home() {
           );
         })}
       </section>
-    </section>
+    </main>
   );
 }

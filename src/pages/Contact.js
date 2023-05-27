@@ -31,7 +31,7 @@ export default function Contact() {
   }
 
   return (
-    <section className="flex flex-col items-center p-3 h-full ">
+    <main className="flex flex-col h-screen items-center p-3">
       <h1 className="flex place-content-center m-3 w-1/2 text-3xl font-semibold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] ">
         Contact
       </h1>
@@ -64,6 +64,6 @@ export default function Contact() {
           Submit
         </button>
       </form>
-    </section>
+    </main>
   );
 }
