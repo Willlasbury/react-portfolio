@@ -1,9 +1,9 @@
 export default function Footer() {
   const style =
-    "p-2 border-2 border-gray-700 rounded-lg shadow-lg shadow-inner";
+    "p-2 border-2 border-gray-700 rounded-lg bg-sky-200 shadow-lg";
   return (
-    <footer>
-      <ul className="flex justify-evenly">
+    <footer className="flex justify-center w-5/6">
+      <ul className="flex w-full justify-evenly my-5">
         <li className={style}>
           <span className="font-bold">Github:</span>
           <a href="https://github.com/Willlasbury" className="font-semibold">   Willlasbury</a>

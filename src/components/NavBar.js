@@ -6,11 +6,11 @@ export default function NavBar() {
     Portfolio: "/portfolio",
     "About Me": "/aboutme",
     Contact: "/contact",
-    Resume: "/resume"
+    Resume: "/resume",
   };
 
   return (
-    <header>
+    <header className="w-full">
       <nav className="flex place-content-between bg-gradient-to-r from-cyan-500 from-20% via-purple-500 via-60% to-cyan-500 rounded-md border-2 border-cyan-800">
         <ul className="flex flex-row">
           {Object.keys(pages).map((key, index) => {

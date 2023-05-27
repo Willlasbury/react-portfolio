@@ -8,7 +8,7 @@ export default function Home() {
         className="w-2/12 rounded-full border-2 border-blue-950 drop-shadow-2xl shadow-inner"
         src={photo}
         alt="Will climbing the Shredder Project in southwestern Virginia"
-      ></img>
+      />
     </main>
   );
 }

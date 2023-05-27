@@ -1,4 +1,3 @@
-// import './App.css';
 import NavBar from "./NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
@@ -8,10 +7,8 @@ import Contact from "../pages/Contact";
 import Resume from "../pages/Resume";
 import NotFound from "../pages/NotFound";
 import Footer from "./Footer";
-import { useState } from "react";
 
 function App() {
-  const [firstVisit, setFirstVisit] = useState(true);
 
   return (
     <div className="flex flex-col h-screen w-full absolute px-5 py-1">
