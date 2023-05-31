@@ -2,7 +2,7 @@ export default function Footer() {
   const style =
     "p-2 border-2 border-gray-700 rounded-lg bg-sky-200 shadow-lg";
   return (
-    <footer className="flex justify-center w-5/6">
+    <footer className="flex justify-center w-full">
       <ul className="flex w-full justify-evenly my-5">
         <li className={style}>
           <span className="font-bold">Github:</span>

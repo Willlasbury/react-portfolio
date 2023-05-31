@@ -1,14 +1,36 @@
 import { NavLink } from "react-router-dom";
+import { useState } from 'react'
 
-export default function NavBar() {
-  const pages = {
+export default function NavBar(props) {
+  
+  const [firstVisit, setFistVisit] = useState(true);
+
+  const defaultPages = {
+    Home: "react-portfolio/",
+    Portfolio: "react-portfolio/portfolio",
+    "About Me": "react-portfolio/aboutme",
+    Contact: "react-portfolio/contact",
+    Resume: "react-portfolio/resume",
+  };
+
+  const firstVisitedPages = {
     Home: "/",
-    Portfolio: "/portfolio",
+    Portfolio: "/aboutme",
     "About Me": "/aboutme",
     Contact: "/contact",
     Resume: "/resume",
   };
 
+  function choosePages() {
+    if (firstVisit) {
+      setFistVisit(false)
+      return firstVisitedPages
+    } else {
+      return defaultPages
+    }
+  }
+  const pages = choosePages()
+  
   return (
     <header className="w-full">
       <nav className="flex place-content-between bg-gradient-to-r from-cyan-500 from-20% via-purple-500 via-60% to-cyan-500 rounded-md border-2 border-cyan-800">
@@ -20,7 +42,7 @@ export default function NavBar() {
                   to={pages[key]}
                   className={({ isActive }) =>
                     isActive
-                      ? "p-1 font-bold text-green-500 text-2xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-md hover:underline hover:text-blue-900"
+                      ? "p-1 font-bold text-green-500 text-2xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] hover:underline hover:text-blue-900"
                       : "font-bold text-green-200 text-2xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]  hover:underline hover:text-blue-700"
                   }
                 >
