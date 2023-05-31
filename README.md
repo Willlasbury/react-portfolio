@@ -3,13 +3,15 @@
 
   ## Description 
 
-  This a skeleton project to build my portfolio from 
+  This a skeleton project to build my portfolio from react
+
+  ## Installation 
+  You will need to run ```npm install``. 
+  From there you can run ```npm start``` to launch the applicaiton.
 
   ## Liscense 
 
   This application is covered by MIT liscence
-  ## Tests 
-
    
 
   ## Questions 
