@@ -2,7 +2,7 @@ import photo from "../utils/images/photo.jpg";
 
 export default function AboutMe({ visited }) {
   return (
-    <main className="flex flex-col place-items-center">
+    <>
       <h1>William Asbury</h1>
       <h2>I like to climb rocks and learn things. Please give me a job</h2>
       <img
@@ -10,6 +10,6 @@ export default function AboutMe({ visited }) {
         src={photo}
         alt="Will climbing the Shredder Project in southwestern Virginia"
       />
-    </main>
+    </>
   );
 }
