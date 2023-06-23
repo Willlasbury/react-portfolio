@@ -9,7 +9,7 @@ export default function NavBar(props) {
     Home: "react-portfolio/",
     Portfolio: "react-portfolio/portfolio",
     "About Me": "react-portfolio/aboutme",
-    Contact: "react-portfolio/contact",
+    // Contact: "react-portfolio/contact",
     Resume: "react-portfolio/resume",
   };
 
@@ -32,7 +32,7 @@ export default function NavBar(props) {
   const pages = choosePages()
   
   return (
-    <header className="w-full">
+    <header className="m-2">
       <nav className="flex place-content-between bg-gradient-to-r from-cyan-500 from-20% via-purple-500 via-60% to-cyan-500 rounded-md border-2 border-cyan-800">
         <ul className="flex flex-row">
           {Object.keys(pages).map((key, index) => {
