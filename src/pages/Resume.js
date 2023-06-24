@@ -6,9 +6,12 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/l
 export default function Resume() {
   return (
     <main className="flex h-full place-content-center">
+        <article className="shadow-2xl">
+
       <Document file="resume.pdf">
         <Page pageNumber={1} renderTextLayer={false}/>
       </Document>
+        </article>
     </main>
   );
 }
