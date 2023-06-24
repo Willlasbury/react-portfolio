@@ -9,7 +9,7 @@ export default function Footer() {
           <a href="https://github.com/Willlasbury" className="font-semibold">   Willlasbury</a>
         </li>
         <li className={style}>
-          <span className="font-bold">Email:</span> <span className="font-semibold">    asbury.lee.w@gmail.com</span>
+          <span className="font-bold">Email:</span> <span className="font-semibold">    asburyw229@gmail.com</span>
         </li>
         <li className={style}>
           <span className="font-bold">LinkedIn:</span>{" "}
