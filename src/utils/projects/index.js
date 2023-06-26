@@ -3,5 +3,6 @@ export default {
     'SSBU Quiz': 'https://willlasbury.github.io/ssbu-question-game/',
     'Weather Dashboard': 'https://willlasbury.github.io/weather-dashboard/',
     '@ a Glance': 'https://projectfirst.herokuapp.com/',
-    'Social Network Database': 'https://github.com/Willlasbury/social-network',
+    'Social Network Database Repo': 'https://github.com/Willlasbury/social-network',
+    'Portfolio Repo': 'https://github.com/Willlasbury/react-portfolio',
 }
