@@ -1,6 +1,7 @@
 export default {
-    '@ a Glance': 'https://projectfirst.herokuapp.com/',
-    'Weather Dashboard': 'https://willlasbury.github.io/weather-dashboard/',
+    'Traderz Post': 'https://traderz-post.netlify.app/login',
     'SSBU Quiz': 'https://willlasbury.github.io/ssbu-question-game/',
-    'Social Network Database': 'https://github.com/Willlasbury/social-network'
+    'Weather Dashboard': 'https://willlasbury.github.io/weather-dashboard/',
+    '@ a Glance': 'https://projectfirst.herokuapp.com/',
+    'Social Network Database': 'https://github.com/Willlasbury/social-network',
 }
