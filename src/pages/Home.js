@@ -3,7 +3,7 @@ import photo from "../utils/images/photo.jpeg";
 export default function Home() {
   return (
     <>
-      <h1 className="text-4xl font-sans border-4 border-cyan-400 rounded-lg p-4 my-3 drop-shadow-lg inner-shadow">
+      <h1 className="text-4xl font-sansggo p-4 my-3 drop-shadow-lg inner-shadow">
         Thank you for visiting this page.
       </h1>
       <img
