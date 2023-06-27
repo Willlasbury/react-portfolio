@@ -1,5 +1,7 @@
-export default 
-    <>
+export default (
+  <article className="border-black border-2 m-3 p-3 bg-slate-100 rounded-md shadow-xl">
+    <section className="p-2">
+      <h2 className="text-lg font-bold underline">College</h2>
       <p>
         I started coding while I was a student at East Tennessee State
         University in 2015. During my last few years of college, I began doing
@@ -11,6 +13,9 @@ export default
         smaller projects and occassional coding challenges to keep up a base
         line of skill over the years.
       </p>
+    </section>
+    <section className="p-2">
+      <h2 className="text-lg font-bold underline">Eastman</h2>
       <p>
         After I finished college I worked as an ropes course manager leading
         team building groups, until I eventually found a job as a part time Lab
@@ -40,27 +45,32 @@ export default
         did not see any fallout for months. Due to this a variety of other
         factors, my wife and I felt it was okay to restart our road trip plan.
       </p>
+    </section>
+    <section className="p-2">
+      <h2 className="text-lg font-bold underline">
+        Road Trip: First Leg and Salt Lake City
+      </h2>
       <p>
         We left Tennessee in June of 2020, and travelled to Pennsylvania first
-        and then slowly worked our way west, taking a fairly norther route. We
+        and then slowly worked our way west, taking a fairly northern route. We
         were able to focus entirely on rock climbing during this time, and
         explore amazing places like the Red River Gorge, New River Gorge,
         Spearfish Canyon, Wild Iris, Indian Creek, and others. After six months
         of this amazing life style, my wife picked up a job as a travel nurse in
         Salt Lake City. Originally I was planning to pick up a job working at a
-        ski resort outside Salt Lake while my wife worked, however on our first
-        day climbing in Little Cotton Wood Canyon just outside Salt Lake, I had
-        an accident while climbing (I fell and for some rease "decided" to kick
-        a rock on my way down) and ended up unable to walk for a couple months.
+        ski resort outside Salt Lake, however on our first day climbing in
+        Little Cotton Wood Canyon just outside Salt Lake, I had an accident
+        while climbing (I fell while bouldering and "decided" to kick a rock on
+        my way down) and ended up unable to walk for a couple months.
       </p>
       <p>
         While this was an unfortunate incident, it did lead to a few humerous
         situations, including me chasing a chicken with one foot and numerous
         days of climbing with crutches at the climbing gym. Mainly it kept me
-        from finding any work that requireed me to be on my feet; and being only
-        a short term resident, I was unable to find employment in any timely
-        manner. So, with nothing to do I decided it probably time to pick up my
-        programming habits again.
+        from finding any work that requireed me to be on my feet; and since I
+        was only a short term resident, I was unable to find employment in any
+        timely manner. So, with nothing to do I decided it probably time to pick
+        up my programming habits again.
       </p>
       <p>
         I was quickly realize how rusty I was at anything past looping over an
@@ -74,16 +84,26 @@ export default
         City. So we left Salt Lake, and our consistent internet connection, and
         headed to California to climb in Bishop.
       </p>
+    </section>
+    <section className="p-2">
+      <h2 className="text-lg font-bold underline">Road Trip: Second Leg</h2>
       <p>
         I tried to keep up my motivation to code, but after about a month of no
         internet, I eventually dropped my project entirely. Instead I focused on
         all the amazing climbing around us. I spent a month bouldering in the
         Volcanic Tablelands, outside Bishop, and then another month in the
         Buttermilk Boulders at the base of Mount Tom futher outside town. This
-        time largely filled with making new friends, climbing, and generally
+        time was largely filled with making new friends, climbing, and generally
         just having fun and living. Eventually though it started to get hot in
         California and we started to head north, with the goal of reaching
         Seattle for another nursing contract.
       </p>
-    </>
-
+      <p>
+        What was supposed to be an easy month of travel quickly turned into and
+        adventure of vehicle troubles, unplanned expenditures, and the other
+        things that make road trips fun and exciting. But after all the twists
+        and turns, we were able to make it to the Pacific North West, 
+      </p>
+    </section>
+  </article>
+);
