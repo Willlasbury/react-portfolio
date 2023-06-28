@@ -1,7 +1,10 @@
+import {HashLink as Link} from 'react-router-hash-link'
+
 export default (
   <article className="border-black border-2 m-3 p-3 bg-slate-100 rounded-md shadow-xl">
+    <Link to="#seattle">test</Link>
     <section className="p-2">
-      <h2 className="text-lg font-bold underline">College</h2>
+      <h2 id="college"className="text-lg font-bold underline">College</h2>
       <p>
         I started coding while I was a student at East Tennessee State
         University in 2015. During my last few years of college, I began doing
@@ -102,7 +105,30 @@ export default (
         What was supposed to be an easy month of travel quickly turned into and
         adventure of vehicle troubles, unplanned expenditures, and the other
         things that make road trips fun and exciting. But after all the twists
-        and turns, we were able to make it to the Pacific North West, 
+        and turns, we were able to make it to the Pacific North West. We found a 
+        to stay in Seattle, near some of our friends, and enjoyed the lasts bit of 
+        summer that Seattle had to offer.
+      </p>
+      <h2 id="seattle" className="text-lg font-bold underline">Seattle</h2>
+      <p>
+        Our time in Seattle was originally set to only be for three months, but 
+        it soon became apparent that estimate was far too short sighted. Coming 
+        from east Tennessee, the difference in pay was stagering. As it turns out,
+        during the pandemic, travel nurses were making what was effectively four times
+        the income that I was used to seeing in the Appalachains. This, mixed with the 
+        close proximity of friends, the abundant food, and other novelties of the city,
+        we kept extending our time there. 
+      </p>
+      <p>
+        During this time I had sought employment at a few of the climbing gyms near by.
+        Unfortunately I was equally as unable to find employment, so similar to last 
+        time in Salt Lake City, I found myself drawn back to the computer. This time
+        around I focused on computer science topics and began following along with some
+        of MIT's free online courses.
+      </p>
+      <p>
+        ... still in progress. I am writing this as I get time. I apologize for all the typos
+        and grammer mistakes.
       </p>
     </section>
   </article>

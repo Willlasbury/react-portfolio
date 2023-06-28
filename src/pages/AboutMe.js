@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import long from "../components/aboutMes/long";
+import long from "../components/aboutMes/long/long";
 import Short from "../components/aboutMes/Short";
 
 export default function AboutMe() {
