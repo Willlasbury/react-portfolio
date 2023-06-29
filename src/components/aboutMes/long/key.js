@@ -125,10 +125,7 @@ export default {
         computer. This time around I focused on computer science topics and
         began following along with some of MIT's free online courses.
       </p>
-      <p>
-        ... still in progress. I am writing this as I get time. I apologize for
-        all the typos and grammer mistakes.
-      </p>
+      
     </>
   ),
 };

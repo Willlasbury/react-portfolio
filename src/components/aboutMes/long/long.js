@@ -21,6 +21,10 @@ export default function Long() {
           </section>
         );
       })}
+      <p>
+        ... still in progress. I am writing this as I get time. I apologize for
+        all the typos and grammer mistakes.
+      </p>
     </article>
   );
 }
