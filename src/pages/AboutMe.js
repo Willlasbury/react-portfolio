@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import long from "../components/aboutMes/long/long";
+import Long from "../components/aboutMes/long/long";
 import Short from "../components/aboutMes/Short";
 
 export default function AboutMe() {
@@ -55,7 +55,7 @@ export default function AboutMe() {
         )}
       
         {showShort && <Short handleRedirect={handleLong} />}
-        {showLong && long}
+        {showLong && <Long />}
       </section>
       {/* {long} */}
     </>
