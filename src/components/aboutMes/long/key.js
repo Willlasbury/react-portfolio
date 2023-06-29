@@ -1,21 +1,19 @@
-export default (
-  <article className="border-black border-2 m-3 p-3 bg-slate-100 rounded-md shadow-xl">
-    <section className="p-2">
-      <h2 className="text-lg font-bold underline">College</h2>
-      <p>
-        I started coding while I was a student at East Tennessee State
-        University in 2015. During my last few years of college, I began doing
-        research under on the binary star system Epislon Aurigea. At the start
-        of this process my professor recommended that I start to learn Python.
-        With that direction I self taught and presented my data analyses at the
-        Tennessee Learning Symposium. Later on, as part of my computational
-        physics course, I was taught Fortran77 and IDL. Since then I have done
-        smaller projects and occassional coding challenges to keep up a base
-        line of skill over the years.
-      </p>
-    </section>
-    <section className="p-2">
-      <h2 className="text-lg font-bold underline">Eastman</h2>
+export default {
+  College: (
+    <p>
+      I started coding while I was a student at East Tennessee State University
+      in 2015. During my last few years of college, I began doing research under
+      on the binary star system Epislon Aurigea. At the start of this process my
+      professor recommended that I start to learn Python. With that direction I
+      self taught and presented my data analyses at the Tennessee Learning
+      Symposium. Later on, as part of my computational physics course, I was
+      taught Fortran77 and IDL. Since then I have done smaller projects and
+      occassional coding challenges to keep up a base line of skill over the
+      years.
+    </p>
+  ),
+  Eastman: (
+    <>
       <p>
         After I finished college I worked as an ropes course manager leading
         team building groups, until I eventually found a job as a part time Lab
@@ -45,11 +43,10 @@ export default (
         did not see any fallout for months. Due to this a variety of other
         factors, my wife and I felt it was okay to restart our road trip plan.
       </p>
-    </section>
-    <section className="p-2">
-      <h2 className="text-lg font-bold underline">
-        Road Trip: First Leg and Salt Lake City
-      </h2>
+    </>
+  ),
+  "Road Trip: First Leg and Salt Lake City": (
+    <>
       <p>
         We left Tennessee in June of 2020, and travelled to Pennsylvania first
         and then slowly worked our way west, taking a fairly northern route. We
@@ -84,9 +81,10 @@ export default (
         City. So we left Salt Lake, and our consistent internet connection, and
         headed to California to climb in Bishop.
       </p>
-    </section>
-    <section className="p-2">
-      <h2 className="text-lg font-bold underline">Road Trip: Second Leg</h2>
+    </>
+  ),
+  "Road Trip: Second Leg": (
+    <>
       <p>
         I tried to keep up my motivation to code, but after about a month of no
         internet, I eventually dropped my project entirely. Instead I focused on
@@ -102,8 +100,35 @@ export default (
         What was supposed to be an easy month of travel quickly turned into and
         adventure of vehicle troubles, unplanned expenditures, and the other
         things that make road trips fun and exciting. But after all the twists
-        and turns, we were able to make it to the Pacific North West, 
+        and turns, we were able to make it to the Pacific North West. We found a
+        to stay in Seattle, near some of our friends, and enjoyed the lasts bit
+        of summer that Seattle had to offer.
       </p>
-    </section>
-  </article>
-);
+    </>),
+
+      
+        Seattle: (<>
+
+      <p>
+        Our time in Seattle was originally set to only be for three months, but
+        it soon became apparent that estimate was far too short sighted. Coming
+        from east Tennessee, the difference in pay was stagering. As it turns
+        out, during the pandemic, travel nurses were making what was effectively
+        four times the income that I was used to seeing in the Appalachains.
+        This, mixed with the close proximity of friends, the abundant food, and
+        other novelties of the city, we kept extending our time there.
+      </p>
+      <p>
+        During this time I had sought employment at a few of the climbing gyms
+        near by. Unfortunately I was equally as unable to find employment, so
+        similar to last time in Salt Lake City, I found myself drawn back to the
+        computer. This time around I focused on computer science topics and
+        began following along with some of MIT's free online courses.
+      </p>
+      <p>
+        ... still in progress. I am writing this as I get time. I apologize for
+        all the typos and grammer mistakes.
+      </p>
+    </>
+  ),
+};
