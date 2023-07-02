@@ -104,11 +104,10 @@ export default {
         to stay in Seattle, near some of our friends, and enjoyed the lasts bit
         of summer that Seattle had to offer.
       </p>
-    </>),
-
-      
-        Seattle: (<>
-
+    </>
+  ),
+  Seattle: (
+    <>
       <p>
         Our time in Seattle was originally set to only be for three months, but
         it soon became apparent that estimate was far too short sighted. Coming
@@ -125,7 +124,6 @@ export default {
         computer. This time around I focused on computer science topics and
         began following along with some of MIT's free online courses.
       </p>
-      
     </>
   ),
 };
