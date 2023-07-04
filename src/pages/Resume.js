@@ -8,7 +8,7 @@ export default function Resume() {
     <main className="flex h-full place-content-center">
         <article className="shadow-2xl">
 
-      <Document file="Resume.pdf">
+      <Document file="resume.pdf">
         <Page pageNumber={1} renderTextLayer={false}/>
       </Document>
         </article>
