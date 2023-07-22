@@ -5,31 +5,13 @@ export default function NavBar(props) {
   
   const [firstVisit, setFistVisit] = useState(true);
 
-  const defaultPages = {
+  const pages = {
     Home: "react-portfolio/",
     Portfolio: "react-portfolio/portfolio",
     "About Me": "react-portfolio/aboutme",
     // Contact: "react-portfolio/contact",
     Resume: "react-portfolio/resume",
   };
-
-  const firstVisitedPages = {
-    Home: "/",
-    Portfolio: "/aboutme",
-    "About Me": "/aboutme",
-    Contact: "/contact",
-    Resume: "/resume",
-  };
-
-  function choosePages() {
-    if (firstVisit) {
-      setFistVisit(false)
-      return firstVisitedPages
-    } else {
-      return defaultPages
-    }
-  }
-  const pages = choosePages()
   
   return (
     <header className="m-2">
