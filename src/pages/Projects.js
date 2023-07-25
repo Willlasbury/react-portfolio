@@ -15,8 +15,6 @@ export default function Projects() {
     fetchData();
   }, []);
 
-  console.log(repos);
-
   if (isLoading) {
     return (
       <>
