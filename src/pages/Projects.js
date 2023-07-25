@@ -26,7 +26,7 @@ export default function Projects() {
   } else {
     return (
       <section>
-        <ul>
+        <ul className="flex flex-wrap justify-center">
           {repos.map(repo => <Repo key={repo.id} repo={repo} />)}
         </ul>
       </section>
