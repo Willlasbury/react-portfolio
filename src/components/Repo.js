@@ -19,7 +19,12 @@ export default function Repo({ repo }) {
         // className="border-2 border-black rounded-lg px-3 py-1 m-2 shadow-md hover:shadow-xl"
       >
         <h2 className="text-slate-900 font-semibold">{repo.description}</h2>
-        <h3 className="text-slate-800">{repo.html_url}</h3>
+        <h3 className="text-slate-700">
+          <span className="font-semibold text-slate-900">Repository: </span>
+          <a href={repo.html_url} target="_blank" className="hover:text-black"> 
+            {repo.html_url}
+          </a>
+        </h3>
       </a>
     </li>
   );
