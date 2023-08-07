@@ -1,10 +1,16 @@
-import getRepos from "./getRepos";
+import fetchRepos from "./fetchRepos";
 import filterRepos from "./filterRepos";
 
-
-export default async function getFetch () {
+export default async function getFetch() {
+  try {
     const url = "https://api.github.com/users/willlasbury/repos";
-    const repos = await getRepos(url)
-    const toDisplay = await filterRepos(repos)
-    return toDisplay
+    const repos = await fetchRepos(url);
+    if (repos.message) {
+      throw Error(repos.message);
+    }
+    const toDisplay = await filterRepos(repos);
+    return toDisplay;
+  } catch (error) {
+    return error;
+  }
 }
