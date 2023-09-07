@@ -1,4 +1,4 @@
-import fetchRepos from "./fetchRepos";
+import fetchRepos from "../fetchUrl";
 import filterRepos from "./filterRepos";
 
 export default async function getFetch() {

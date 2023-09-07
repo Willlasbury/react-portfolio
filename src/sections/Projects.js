@@ -1,18 +1,14 @@
 import { useState, useEffect } from "react";
-import getRepos from "../utils/fetch/github";
-import getStats from "../utils/fetch/codewars"
+import getRepos from "../utils/fetch";
 import Repo from "../components/Repo";
 
 export default function Projects() {
   const [repos, setRepos] = useState([]);
-  const [stats, setStats] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   const fetchData = async () => {
     const data = await getRepos();
-    const stats = await getStats()
     setRepos(data);
-    setStats(stats);
     setIsLoading(false);
   };
   useEffect(() => {
